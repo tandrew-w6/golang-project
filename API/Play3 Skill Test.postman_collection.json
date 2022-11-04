@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "68584a3d-ff97-4109-a1b3-6620aed84d68",
+		"name": "Play3 Skill Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/datas?search=hana&lowPrice=1890000&highPrice=10000000&restaurant=Hanamasa",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:8080/datas?search=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"datas"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": ""
+						},
+						{
+							"key": "lowPrice",
+							"value": "1890000",
+							"disabled": true
+						},
+						{
+							"key": "highPrice",
+							"value": "10000000",
+							"disabled": true
+						},
+						{
+							"key": "restaurant",
+							"value": "Hanamasa",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

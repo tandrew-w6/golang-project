@@ -1,0 +1,91 @@
+API Documentation
+
+URL : http://localhost:8080/datas
+Method : GET
+Request : 
+1. search
+2. lowPrice
+3. highPrice
+4. restaurant
+
+Response : 
+{
+    "statusCode": 200,
+    "message": "success",
+    "status": "OK",
+    "timestamp": "2022-11-04 16:32:46",
+    "data": {
+        "lists": [
+            {
+                "id": 1,
+                "name": "Tenderloin Wagyu 100gr",
+                "restaurant": {
+                    "id": 1,
+                    "name": "Hanamasa",
+                    "address": "Jalan Mangga 1"
+                },
+                "price": 1890000
+            },
+            {
+                "id": 2,
+                "name": "Beef Bowl S",
+                "restaurant": {
+                    "id": 2,
+                    "name": "Yoshinoya",
+                    "address": "Jalan Manggis 29"
+                },
+                "price": 45000
+            },
+            {
+                "id": 3,
+                "name": "Chicken Teriyaki",
+                "restaurant": {
+                    "id": 2,
+                    "name": "Yoshinoya",
+                    "address": "Jalan Manggis 29"
+                },
+                "price": 35000
+            },
+            {
+                "id": 4,
+                "name": "Spagheti",
+                "restaurant": {
+                    "id": 3,
+                    "name": "KFC",
+                    "address": "Jalan Kedondong 89"
+                },
+                "price": 20000
+            },
+            {
+                "id": 5,
+                "name": "Large Chicken Crispy",
+                "restaurant": {
+                    "id": 3,
+                    "name": "KFC",
+                    "address": "Jalan Kedondong 89"
+                },
+                "price": 16000
+            },
+            {
+                "id": 6,
+                "name": "Large Chicken Original",
+                "restaurant": {
+                    "id": 3,
+                    "name": "KFC",
+                    "address": "Jalan Kedondong 89"
+                },
+                "price": 16500
+            },
+            {
+                "id": 7,
+                "name": "All You Can Eat",
+                "restaurant": {
+                    "id": 1,
+                    "name": "Hanamasa",
+                    "address": "Jalan Mangga 1"
+                },
+                "price": 200000
+            }
+        ]
+    }
+}

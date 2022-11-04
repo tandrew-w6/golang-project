@@ -1,0 +1,11 @@
+syntax = "proto3";
+package new;
+
+option go_package = "gateway-service/pb;new";
+
+import "request.proto";
+import "return.proto";
+
+service NewService {
+  rpc GetListData(GetListDataRequest) returns (GetListDataReturn) {}
+}
